@@ -1,5 +1,70 @@
-.body{
-    width: 250px;
-    height: 250px;
-    background-color: pink;
+.contenedor {
+    padding: 20px;
+    border: 20px solid;
+    width: 500px;
+    height: 500px;
+    border-color: brown;
+    background-color: antiquewhite;
+}
+
+.segundo {
+    padding: 20px;
+    border: 20px solid;
+    width: 500px;
+    height: 500px;
+    border-color: blueviolet;
+    background-color: antiquewhite;
+}
+
+.comida {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    border: 5px solid;
+    border-color: rgb(171, 50, 127);
+    border-radius: 20px;
+    background-color: azure;
+}
+
+.ensalada {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    border: 3px solid;
+    border-color: rgb(107, 107, 49);
+    border-radius: 10px;
+}
+
+.jugos {
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(64, 42, 108);
+    border: 5px solid;
+    border-color: rgb(113, 23, 38);
+    border-radius: 20px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+
+}
+
+.frutas {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mensaje {
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(203, 96, 42);
 }
