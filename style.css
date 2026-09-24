@@ -64,7 +64,41 @@ button {
 }
 
 .mensaje {
-    border: 3px solid;
+        border: 3px solid;
     border-radius: 10px;
     border-color: rgb(203, 96, 42);
+}
+/* este forma parte del tema online-block*/
+.margines {
+    border: 4px solid black;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+margin-left: 50px;
+
+}
+
+p {
+   border: 20px solid brown;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 80px;
+}
+/*esta parte es del tema grid*/
+.cuadrado {
+    border: 4px solid salmon;
+    border-radius: 10px;
+    background-color: rgb(174, 208, 244);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px /*para no estar repitiendo manualmente se puede colocar "repeat (3, 1fr)"*/
+}
+
+
+.cuadrado div {
+     border: 3px solid palevioletred;
+     border-radius: 4px;
+     background-color: azure;
+    
 }
