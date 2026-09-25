@@ -111,3 +111,23 @@ img {
     height: auto;
     border-radius: 10px;
 }
+/*area de layout practicando*/
+.nuevo-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1 / 2;
+}
+
+.nuevo-contenedor header {
+    background: aquamarine;
+}
+.nuevo-contenedor aside {
+    background: brown;
+}
+.nuevo-contenedor main {
+    background: rgb(198, 134, 218);
+}
+.nuevo-contenedor footer {
+    background: darkorange;
+
+}
